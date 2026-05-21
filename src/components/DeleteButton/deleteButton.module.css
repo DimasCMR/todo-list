@@ -1,0 +1,12 @@
+.deleteButton{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+.deleteButton:hover {
+    background-color: lightblue;
+    color: white;
+  }
+.deleteButton_svg{
+    color:bisque;
+}

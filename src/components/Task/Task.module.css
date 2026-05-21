@@ -1,0 +1,9 @@
+.task{
+    display:flex;
+    box-sizing: border-box;
+    border: 1px dashed gray;
+    width: 600px;
+    height:100px;
+    justify-content: space-around;
+    align-items: center;
+}

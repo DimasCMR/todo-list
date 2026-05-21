@@ -1,0 +1,7 @@
+.editButton{
+    height: 30px;
+    width: 30px;
+}
+.editButton:hover{
+    background-color: blanchedalmond;
+}
