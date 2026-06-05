@@ -1,9 +1,49 @@
-.task{
-    display:flex;
-    box-sizing: border-box;
-    border: 1px dashed gray;
-    width: 600px;
-    height:100px;
-    justify-content: space-around;
+.task {
+    background: rgba(30, 35, 48, 0.7);
+    backdrop-filter: blur(4px);
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
+    transition: all 0.2s ease;
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task:hover {
+    background: rgba(40, 46, 62, 0.8);
+    border-color: rgba(165, 180, 252, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  .taskText {
+    color: #f1f5f9;
+    font-size: 1rem;
+    word-break: break-word;
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  .editInput {
+    background: #0f172a;
+    border: 1px solid #818cf8;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    color: #f1f5f9;
+    font-size: 1rem;
+    flex: 1;
+    margin-right: 1rem;
+    outline: none;
+    transition: 0.1s;
+  }
+  
+  .editInput:focus {
+    border-color: #a5b4fc;
+    box-shadow: 0 0 0 2px rgba(165, 180, 252, 0.3);
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+  }

@@ -1,0 +1,16 @@
+.filterIcon {
+    background: rgba(100, 116, 139, 0.2);
+    border-radius: 2rem;
+    padding: 0.4rem;
+    display: inline-flex;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .filterIcon svg {
+    stroke: #94a3b8;
+  }
+  
+  .filterIcon:hover {
+    background: rgba(100, 116, 139, 0.4);
+  }

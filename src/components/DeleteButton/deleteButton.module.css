@@ -1,12 +1,25 @@
-.deleteButton{
-    box-sizing: border-box;
-    height: 30px;
-    width: 30px;
-}
-.deleteButton:hover {
-    background-color: lightblue;
-    color: white;
+.deleteButton {
+    background: rgba(239, 68, 68, 0.15);
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.15s;
   }
-.deleteButton_svg{
-    color:bisque;
-}
+  
+  .deleteButton_svg {
+    stroke: #f87171;
+    transition: stroke 0.15s;
+  }
+  
+  .deleteButton:hover {
+    background: rgba(239, 68, 68, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .deleteButton:hover .deleteButton_svg {
+    stroke: #ef4444;
+  }

@@ -1,5 +1,20 @@
-.main_input{
-    width: 600px;
-    height: 100px;
-    border-radius: 8px;
-}
+.main_input {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 2rem;
+    padding: 0.85rem 1.5rem;
+    width: 100%;
+    color: #f1f5f9;
+    font-size: 1rem;
+    transition: all 0.2s;
+    outline: none;
+  }
+  
+  .main_input:focus {
+    border-color: #818cf8;
+    box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.2);
+  }
+  
+  .main_input::placeholder {
+    color: #5b6e8c;
+  }
